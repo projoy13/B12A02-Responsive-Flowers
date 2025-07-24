@@ -81,6 +81,27 @@ header img{
     width: 500px;
     height: 355px;
     margin-right: 150px;
+    
+}
+
+/* secound section */
+
+.section{
+    margin: auto 150px;
+    max-width: 1140px;
+}
+.plants h1{
+    font: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.titel-f{
+    color: rgba(233, 90, 8, 1) ;
+}
+.secound p{
+    font: 22px;
+    color:rgba(0, 0, 0, 0.5) ;
+    text-align: center;
 }
 
 @media screen  and (max-width:576px){
