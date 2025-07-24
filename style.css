@@ -86,9 +86,10 @@ header img{
 
 /* secound section */
 
-.section{
-    margin: auto 150px;
+.secound{
+    margin: 120px 150px;
     max-width: 1140px;
+    text-align: center;
 }
 .plants h1{
     font: 50px;
@@ -103,11 +104,47 @@ header img{
     color:rgba(0, 0, 0, 0.5) ;
     text-align: center;
 }
+.all-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
 
 @media screen  and (max-width:576px){
    
     #ho, #sh ,#ab{
         display: none;
     }
+body{
+   max-width: 393px;
+}
+
+     header{
+        justify-content: space-between;
+    } 
+    /* .always-fresh{
+        max-width: 393px;
+    } */
+    .always{
+        flex-direction: column-reverse;
+        margin: 65px auto;
+    }
+    /* .secound{
+        max-width: 395px;
+
+    } */
+    .all-cards{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+       
+    }
+    .inner-img{
+        max-width: 100%;
+        height: 245px;
+    }
         
+}
+
+@media screen and(min-width:576px) and (max-width:992px) {
+    
 }
