@@ -19,10 +19,11 @@
 header{
     width: 1210px;
     height: 71px;
+    margin-left: 150px;
     
 }
 header img{
-    margin-left:150px ;
+    
 }
 
 .details{
@@ -55,7 +56,7 @@ header img{
    
 }
 .always-fresh{
-    width: 1140px;
+    width: 1210px;
     height: 355px;
     margin: 120px 150px;
 }
@@ -80,16 +81,19 @@ header img{
 .inner-img img{
     width: 500px;
     height: 355px;
-    margin-right: 150px;
+ 
     
 }
 
 /* secound section */
 
 .secound{
-    margin: 120px 150px;
-    max-width: 1140px;
+    margin: 20px 150px;
+    max-width: 1210px;
     text-align: center;
+    max-height: 1220px;
+    margin-left: 150px;
+
 }
 .plants h1{
     font: 50px;
@@ -107,14 +111,79 @@ header img{
 .all-cards{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    margin-top: 50px auto; 
+ gap: 20px;
+ max-width: 1200px;
 
+ 
+ 
+}
+.card{
+   padding: 0;
+  text-align: center;
+margin-top: 30px;
+}
+.card button{
+    font-size: 16px;
+    font-weight: bold;
+    background-color:rgba(233, 90, 8, 1) ;
+    color: rgba(255, 255, 255, 1);
+     margin-top: 10px;
+    width: 286px;
+   padding: 19px 80px;
+    border: none;
+   
+}
+/* ###########third section#################### */
+
+
+
+/* .third div{
+    /* margin: 83 px 150px ; */
+    /* display: flex;
+    justify-content: center; */
+  
+ .third{
+    display: flex;
+    justify-content: center;
+ } 
+
+.third img{
+    width: 286px;
+    height: 286px;
+   
 }
 
+  /* margin: 83px 438px 497px 657px;
+} */
+ /* margin: 0px 497px 657px; */
+
+.lover-details ul{
+    font: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.lover-details h2{
+    font:50px;
+    font-weight: bold;
+}
+.lover{
+    display: flex;
+    align-items: center;
+   
+    gap: 60px;
+}
+
+
+
+
+
+/* for phone  */
 @media screen  and (max-width:576px){
    
     #ho, #sh ,#ab{
         display: none;
     }
+
 body{
    max-width: 393px;
 }
