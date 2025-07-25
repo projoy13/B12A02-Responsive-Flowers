@@ -231,7 +231,52 @@ margin-top: 30px;
     max-width:540px;
 }
 
+/*$############################ fourth##################################### */
+.fourth{
+    margin: 120px 150px;
+}
+.fourth h2{
+    font: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.fourth p{
+    font: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.fourth span{
+    color:rgba(233, 90, 8, 1) ;
+}
+/* ##########################  Fifth ############################## */
+.fifth{
+    margin: 120px 150px;
+}
+.father{
+    display: flex;
+    gap: 28px;
+}
 
+.baby1 img {
+    max-width:367px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.baby2 img {
+    max-width:367px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.mom img{
+    border-radius: 20px;
+}
+/* ############################### Sixth ####################### */
+.sixth{
+
+}
+.subscribe img{
+    max-width: 1440px;
+}
 
 
 
