@@ -14,6 +14,9 @@
   font-weight: weight;
   font-style: normal;
 }
+body{
+    max-width: 1250px;
+}
 
 
 header{
@@ -58,25 +61,33 @@ header img{
 .always-fresh{
     width: 1210px;
     height: 355px;
-    margin: 120px 150px;
+    margin: 120px 140px;
 }
 .always{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+   gap: 0;
+  
+   justify-content: center;
+   
 }
 .always-inner h1{
     font-size: 65px;
     font-weight: bold;
+    text-align: start;
+    
 }
 .always-inner span{
     color:#E95A08 ;
 
 }
-.inter{
+
+
+.dis{
     font: 22px;
     color:rgba(0, 0, 0, 0.5) ;
     width: 570px;
+  
+   
 }
 .inner-img img{
     width: 500px;
@@ -90,11 +101,12 @@ header img{
 .secound{
     margin: 20px 150px;
     max-width: 1210px;
-    text-align: center;
+
     max-height: 1220px;
-    margin-left: 150px;
+    
 
 }
+
 .plants h1{
     font: 50px;
     font-weight: bold;
@@ -103,25 +115,31 @@ header img{
 .titel-f{
     color: rgba(233, 90, 8, 1) ;
 }
-.secound p{
-    font: 22px;
+.plants p{
+    font: 20px;
     color:rgba(0, 0, 0, 0.5) ;
-    text-align: center;
+  
+  text-align: center;
 }
 .all-cards{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top: 50px auto; 
- gap: 20px;
+ gap: 10px;
  max-width: 1200px;
 
  
  
 }
+.card img{
+    max-width: 270px;
+}
 .card{
    padding: 0;
   text-align: center;
 margin-top: 30px;
+ max-width: 270px;
+
 }
 .card button{
     font-size: 16px;
@@ -129,11 +147,17 @@ margin-top: 30px;
     background-color:rgba(233, 90, 8, 1) ;
     color: rgba(255, 255, 255, 1);
      margin-top: 10px;
-    width: 286px;
+    width: 270px;
    padding: 19px 80px;
     border: none;
-   
+    
 }
+    
+
+.card button:hover{
+    background-color: rgb(231, 209, 11);
+    transition-duration: 1s;
+}  
 /* ###########third section#################### */
 
 
@@ -146,6 +170,7 @@ margin-top: 30px;
  .third{
     display: flex;
     justify-content: center;
+    margin: 0 150px;
  } 
 
 .third img{
@@ -157,10 +182,40 @@ margin-top: 30px;
   /* margin: 83px 438px 497px 657px;
 } */
  /* margin: 0px 497px 657px; */
+.third{
+    max-width: 1210px;
+    margin: 86px 150px;
+}
+.container{
+    position: relative;
+}
+.trusted  {
+  left: 100px;
+  bottom: -120px;
+  z-index: 20;
+ 
+}
+.bad{
+   max-width:  286px;
+   max-height: 286px;
+   border: 2px red;
+ box-shadow: 2px light rgb(174, 17, 17);
+}
+.lover{
+    z-index: 10;
+}
 
+ .lover-details{
+    max-width: 540px;
+ }
 .lover-details ul{
     font: 20px;
     color: rgba(0, 0, 0, 0.5);
+   
+}
+.lover-details li{
+    margin-top: 15px;
+   
 }
 .lover-details h2{
     font:50px;
@@ -171,6 +226,9 @@ margin-top: 30px;
     align-items: center;
    
     gap: 60px;
+}
+.lover-pic img{
+    max-width:540px;
 }
 
 
