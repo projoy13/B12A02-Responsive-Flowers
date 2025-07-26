@@ -25,9 +25,7 @@ header{
     margin-left: 150px;
     
 }
-header img{
-    
-}
+
 
 .details{
    list-style-type:none;
@@ -127,8 +125,6 @@ header img{
     margin-top: 50px auto; 
  gap: 10px;
  max-width: 1200px;
-
- 
  
 }
 .card img{
@@ -162,74 +158,47 @@ margin-top: 30px;
 
 
 
-/* .third div{
-    /* margin: 83 px 150px ; */
-    /* display: flex;
-    justify-content: center; */
-  
- .third{
+
+ .container{
     display: flex;
-    justify-content: center;
-    margin: 0 150px;
+    justify-content:center;
+    text-align: center;
  } 
 
-.third img{
-    width: 286px;
-    height: 286px;
-   
+.badg{
+    margin-top:-80px;
+    margin-left:-210px;
+    
+     max-width:  286px;
+   max-height: 286px;
 }
 
-  /* margin: 83px 438px 497px 657px;
-} */
- /* margin: 0px 497px 657px; */
+
+ 
 .third{
     max-width: 1210px;
     margin: 86px 150px;
-}
-.container{
-    position: relative;
-}
-.trusted  {
-  left: 100px;
-  bottom: -120px;
-  z-index: 20;
  
 }
-.bad{
-   max-width:  286px;
-   max-height: 286px;
-   border: 2px red;
- box-shadow: 2px light rgb(174, 17, 17);
-}
-.lover{
-    z-index: 10;
-}
 
- .lover-details{
-    max-width: 540px;
- }
+
+
+ 
 .lover-details ul{
     font: 20px;
     color: rgba(0, 0, 0, 0.5);
+
    
 }
 .lover-details li{
     margin-top: 15px;
    
 }
-.lover-details h2{
+.lover-details h1{
     font:50px;
     font-weight: bold;
 }
-.lover{
-    display: flex;
-    align-items: center;
-   
-    gap: 60px;
-}
-.lover-pic img{
-    max-width:540px;
-}
+
 
 /*$############################ fourth##################################### */
 .fourth{
@@ -277,46 +246,42 @@ margin-top: 30px;
 .subscribe img{
     max-width: 1440px;
 }
-.gadagadi h1{
-    text-align: center;
+.subscribe h1{
+  
     font: 50px;
-    color:rgb(232, 219, 219);
-    font-weight: bold;
+    color:rgb(183, 46, 46);
+    font-weight: bold; 
+ margin-top:-220px ;
+       margin-left: 500px;
+}
+.info{
+    margin-top: -0px;
+    display: flex;
+    margin-left: 500px;
+}
 
-}
-.gadagadi da{
-  align-items: center;
-}
-.gadagadi button{
+
+
+
+.subscribe button{
     font: 16px;
     font-weight: bold;
     color: rgb(228, 218, 218);
     background-color:rgba(233, 90, 8, 1) ;
     padding: 19px 53px;
     border: none;
+ 
    
 }
-.gadagadi button:hover{
+.subscribe button:hover{
      background-color: rgb(231, 209, 11);
-    transition-duration: 1s;
+    transition-duration:1s;
 }
 
-.gadagadi{
-    position: relative;
-}
-.ga{
-    z-index:20 ;
-    bottom: 300px;
-    
-}
-.da{
-    display: flex;
-    bottom: 295px;
-    left: 500px;
-   
-}
+
+
 footer{
-    margin: 50px 160px;
+    margin: 330px 160px;
   
 }
 .footer p{
@@ -372,27 +337,45 @@ justify-content: space-between;
    
     #ho, #sh ,#ab{
         display: none;
+
     }
 
-body{
+header{
    max-width: 393px;
 }
+.always-fresh{
+    max-width:360px ;
+}
+.secound{
+    max-width: 393px;
+    margin-top: 400px;
+}
 
-     header{
-        justify-content: space-between;
-    } 
-    /* .always-fresh{
-        max-width: 393px;
-    } */
+   
+    .always-inner h1{
+                margin-top: 100px;
+    
+    }
+
+    .always-inner p{
+       text-align: center;
+    }
     .always{
         flex-direction: column-reverse;
         margin: 65px auto;
     }
-    /* .secound{
-        max-width: 395px;
+    .plants h1  {
+        text-align: center;
 
-    } */
+        
+
+    }
+    
+        
+      
+    
     .all-cards{
+        display: grid;
         grid-template-columns: repeat(2,1fr);
         align-items: center;
        
@@ -401,9 +384,48 @@ body{
         max-width: 100%;
         height: 245px;
     }
+   
+    .badg{
+display: none;
+    }
+
+    .num-8 ,.num-7 {
+       visibility: hidden;
+    }
+    .container{
+        margin-top: 350px;
+        display: flex;
+        flex-direction:column ;
+        max-width: 361px;
+    }
+    .third{
+        margin-top: 1100px;
+    }
+    .lover-details li{
+        line-height: 1;
+    }
+/* fourth */
+.baby1 img{
+  max-width: 100%;
+
+}
+.baby2 img{
+max-width: 100%;
+}
+.mom img{
+    max-width: 361px;
+}
+
+.father {
+    display: grid;
+    grid-template-rows: repeat(1fr);
+}
+/* sixth */
+.subscribe img{
+    max-width: 100%;
+    margin-left: 150px;
+
+}
         
 }
 
-@media screen and(min-width:576px) and (max-width:992px) {
-    
-}
