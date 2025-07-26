@@ -240,24 +240,29 @@ margin-top: 30px;
     border-radius: 20px;
 }
 /* ############################### Sixth ####################### */
-.sixth{
 
-}
+
 .subscribe img{
-    max-width: 1440px;
+    width: 100%;
 }
 .subscribe h1{
   
     font: 50px;
-    color:rgb(183, 46, 46);
+    color:rgb(222, 213, 213);
     font-weight: bold; 
- margin-top:-220px ;
-       margin-left: 500px;
+ margin-top:-250px ;
+       margin-left: 300px;
 }
 .info{
-    margin-top: -0px;
+    margin-top: 0px;
     display: flex;
-    margin-left: 500px;
+    margin-left: 250px;
+
+}
+.info input{
+    width: 644px;
+    height: 50px;
+
 }
 
 
@@ -293,6 +298,7 @@ footer{
     display: flex;
     align-items: center;
     gap: 100px;
+   
     
   
 }
@@ -333,7 +339,7 @@ justify-content: space-between;
 
 
 /* for phone  */
-@media screen  and (max-width:576px){
+@media screen  and (max-width:560px){
    
     #ho, #sh ,#ab{
         display: none;
@@ -341,14 +347,39 @@ justify-content: space-between;
     }
 
 header{
-   max-width: 393px;
+   /* max-width: 393px; */
+   width: 100%;
 }
 .always-fresh{
-    max-width:360px ;
+    /* max-width:360px ; */
+    width: 100%;
 }
 .secound{
-    max-width: 393px;
+    /* max-width: 393px; */
     margin-top: 400px;
+    width: 100%;
+   
+}
+footer{
+    width: 100%;
+  margin-bottom: 500px;
+}
+.footer{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   row-gap: 0;
+}
+.all-icons img{
+     display: grid;
+    grid-template-coloum: repeat(4,1fr);
+   
+ 
+    
+}
+.all-links{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+   row-gap: 0px;
 }
 
    
@@ -388,6 +419,10 @@ header{
     .badg{
 display: none;
     }
+    .bad{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+    }
 
     .num-8 ,.num-7 {
        visibility: hidden;
@@ -399,12 +434,15 @@ display: none;
         max-width: 361px;
     }
     .third{
-        margin-top: 1100px;
+        margin-top: 600px;
+        width: 100%;
     }
-    .lover-details li{
-        line-height: 1;
-    }
+    
 /* fourth */
+
+.fourth{
+    width: 100%;
+}
 .baby1 img{
   max-width: 100%;
 
@@ -420,12 +458,35 @@ max-width: 100%;
     display: grid;
     grid-template-rows: repeat(1fr);
 }
-/* sixth */
-.subscribe img{
-    max-width: 100%;
-    margin-left: 150px;
-
+.fifth{
+    margin-top: -30px;
 }
-        
+
+
+/* sixth */
+.sixth{
+    width: 100%;
+}
+ .subscribe img{
+    width: 500px;
+     margin-left: 170px; 
+ height: 275px;
+} 
+/* .info button{
+  width: 320px;
+  height: 50px;
+  margin-left:-10px ;
+} */
+.info input{
+    width: 218px;
+    height: 50px;
+}
+.btn button{
+    width:100%;
+}
+.tit {
+    font: 20px;
+    width: 100%;
+    
 }
 
